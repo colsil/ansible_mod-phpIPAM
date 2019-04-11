@@ -7,8 +7,12 @@ ansible >= 2.7
 
 Installation
 =========================
-1. Copy modules into your module folder.
-2. Copy `module_utils/phpipam.py` into your module_utils folder. 
+
+Installing with ansible galaxy:
+
+```ansible-galaxy install git+https://github.com/rcanderson23/ansible_mod-phpIPAM.git```
+
+To manually install, copy the library and module_utils directories to your ansible directory.
 
 Example Plays
 =========================
